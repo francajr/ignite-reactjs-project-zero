@@ -1,1 +1,6 @@
-// TODO
+.container {
+    max-width: var(--max-width);
+    margin: 4rem auto;
+    padding: 0 13.125rem 5rem;
+    min-height: calc(100vh - var(--header-height));
+}
