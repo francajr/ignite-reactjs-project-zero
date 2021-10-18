@@ -76,7 +76,7 @@ export default function Post({ post }: PostProps) {
         <div className={styles.content}>
           <div className={styles.posts}>
             <h1>{post.data.title}</h1>
-            <div className={styles.postFooter}>
+            <div className={styles.postStatus}>
               <span>
                 <FiCalendar />
                 {formatedDate}
